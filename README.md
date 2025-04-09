@@ -1,1 +1,1 @@
-# ict122-activities
+ICT122 ACTIVITIES COMPILATION
