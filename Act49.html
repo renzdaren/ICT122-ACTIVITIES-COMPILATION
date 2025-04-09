@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 49</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky; /* Makes the header sticky */
+            top: 0;
+            z-index: 1000; /* Ensures it stays above other elements */
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 999; /* Ensures the nav stays above other content */
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color: #f0b7fc; /* Lighter hover effect */
+        }
+        .active {
+            background-color: #4CAF50; /* Active link style */
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 50px auto; /* Added margin to account for the fixed nav */
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            padding: 20px;
+            margin-top: 60px; /* Added margin to avoid overlap with fixed nav */
+            background-color: #1abc9c;
+            height: 1500px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Activity 49</h1>
+		<h2>Fixed Navigation Bar</h2>
+    </header>
+	<br>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+	</br>
+    <div class="content">
+        <h1>Fixed Top Navigation Bar</h1>
+        <h2>Scroll this page to see the effect</h2>
+        <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+
+        <p>The type of girl you wanna chew all of my bubble gum..</p>
+        <p>I'm the type of girl you wanna take to yo momma house..</p>
+        <p>Take, t-t-take, take, take to yo momma house..</p>
+        <p>Yep, the Georgia peach and I'm back again..</p>
+        <p>It's time to do the damn thing better tell your friends..</p>
+        <p>First things first, I 'Sheeda..</p>
+        <p>Mess around wit' no man who won't eat her..</p>
+        <p>It's time to get it straight, these suckers 'round here trippin'..</p>
+    </div>
+</body>
+</html>

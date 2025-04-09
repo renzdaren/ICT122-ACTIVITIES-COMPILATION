@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 15</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlight {
+            margin: 0 0 20px;
+        }
+
+        .emphasized {
+            margin: 0 0 20px;
+        }
+
+        .right-to-left {
+            margin: 0 0 20px;
+        }
+
+        .quote {
+            margin: 0 0 20px;
+        }
+
+        .code-sample {
+            margin: 0 0 20px;
+        }
+
+        address {
+            font-style: normal;
+            margin-top: 20px;
+        }
+
+        code {
+            background-color: #e0e0e0;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        q {
+            quotes: "“" "”" "‘" "’";
+        }
+
+        q::before {
+            content: open-quote;
+        }
+
+        q::after {
+            content: close-quote;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Activity 15</h1>
+        <h2>Phrase Tag(s)</h2>
+    </header>
+    <main>
+        <div class="highlight">This sentence contains a <mark>highlighted</mark> word.</div>
+        <div class="emphasized">This word is <em>emphasized</em> for effect.</div>
+        <div class="right-to-left"><bdo dir="rtl">This sentence will be displayed from right to left.</bdo></div>
+        <div class="quote">John said, <q>Learning to code is fun!</q></div>
+        <div class="code-sample">Here is some code: <code>console.log('Hello, world!');</code></div>
+        <address>
+            388A, Road No 22, Jubilee Hills - Hyderabad
+        </address>
+    </main>
+</body>
+
+</html>

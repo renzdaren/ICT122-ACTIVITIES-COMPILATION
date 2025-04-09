@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 37</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 600px;
+            margin: 20px auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        input[type="submit"] {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Activity 37</h1>
+		<h2>CheckBox in Forms</h2>
+    </header>
+    <main>
+
+
+            <label for="preferences">Preferences:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="newsletter" name="preferences" value="newsletter">
+                <label for="newsletter">Subscribe to newsletter</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="updates" name="preferences" value="updates">
+                <label for="updates">Receive updates</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="offers" name="preferences" value="offers">
+                <label for="offers">Get special offers</label>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
